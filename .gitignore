@@ -5,5 +5,8 @@ __pycache__/
 # uv lock file
 uv.lock
 
+# Datasets
+dataset/
+
 # Data generated
 **/*.dat
