@@ -1,0 +1,8 @@
+Uses uv for env creation and management
+See https://docs.astral.sh/uv/getting-started/installation/ for installation instructions
+
+# Create a new environment or update it
+uv sync
+
+# Formatting with ruff
+uv run ruff format .
