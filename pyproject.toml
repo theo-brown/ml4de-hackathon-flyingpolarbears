@@ -1,7 +1,7 @@
 [project]
-name = "minimal"
-version = "0.1.0"
-description = "Add your description here"
+name = "ml4de-hackathon-minimal"
+version = "0.0.1"
+description = "Minimal example for the ML4DE hackathon"
 readme = "README.md"
 license-files = ["LICENSE"]
 requires-python = ">=3.12"
@@ -20,3 +20,8 @@ dependencies = [
 dev = [
     "ruff",
 ]
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+output-format = "concise"
