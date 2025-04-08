@@ -2,5 +2,8 @@ __pycache__/
 *.pyc
 *.pyo
 
+# uv lock file
+uv.lock
+
 # Data generated
 **/*.dat
