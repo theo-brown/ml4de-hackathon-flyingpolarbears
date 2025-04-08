@@ -1,0 +1,22 @@
+[project]
+name = "minimal"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+license-files = ["LICENSE"]
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel",
+    "pip",
+    "torch",
+    "numpy",
+    "deepxde",
+]
+
+[project.scripts]
+
+
+[dependency-groups]
+dev = [
+    "ruff",
+]
