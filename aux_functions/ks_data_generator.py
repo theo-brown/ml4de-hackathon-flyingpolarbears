@@ -78,6 +78,7 @@ def plot_solution(x, t, u):
 
 if __name__ == "__main__":
     import os
+    import time
 
     # Set up parameters for KS equation
     params = {
@@ -89,8 +90,17 @@ if __name__ == "__main__":
         'num_steps': 201  # Total steps for 0 to 100
     }
     
+    start_time = time.time()
     # Generate data
     x, t, u = generate_ks_data(params)
+
+    end_time = time.time()
+
+    # Calculate the duration in seconds
+    duration = end_time - start_time
+
+    # Print the duration
+    print(f"Generation took {duration} seconds to run.")
     
     # Plot the solution
     plot_solution(x, t, u)

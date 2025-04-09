@@ -10,3 +10,4 @@ dataset/
 
 # Data generated
 **/*.dat
+poetry.lock
